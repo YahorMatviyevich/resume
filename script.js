@@ -1,5 +1,5 @@
 // Мини-typing без библиотек
-const roles = ["Web Development", "Python Development", "Automation", "Game Dev"];
+const roles = ["C/C++ Development", "Python Development", "Automation", "Game Dev"];
 const typingEl = document.getElementById("typing");
 let roleIndex = 0, charIndex = 0, deleting = false;
 
