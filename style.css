@@ -224,3 +224,22 @@ body{
 @media (max-width: 520px){
   .grid{grid-template-columns:1fr}
 }
+
+.lang-switch{
+  display:flex;
+  gap:6px;
+}
+
+.lang-btn{
+  padding:6px 10px;
+  border-radius:10px;
+  border:1px solid rgba(2,6,23,.1);
+  background:#fff;
+  font-weight:700;
+  cursor:pointer;
+}
+
+.lang-btn.is-active{
+  background: var(--primary);
+  color:#fff;
+}
