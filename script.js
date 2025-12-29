@@ -141,7 +141,8 @@ document.addEventListener("DOMContentLoaded", () => {
       hero_hi: "Привет!",
       hero_im: "Я",
       hero_into: "Я занимаюсь",
-
+      hero__name: "Егор",
+      hero__surname: "Матвиевич",
       hero_about_btn: "Обо мне",
 
       about_title: "Обо мне",
@@ -185,7 +186,8 @@ document.addEventListener("DOMContentLoaded", () => {
       hero_hi: "Hi There,",
       hero_im: "I'm",
       hero_into: "I am into",
-
+      hero__name: "Yahor",
+      hero__surname: "Matviyevich",
       hero_about_btn: "About Me",
 
       about_title: "About",
