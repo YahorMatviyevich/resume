@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Имя Фамилия — Портфолио</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- фон с частицами -->
+  <div id="particles"></div>
+
+  <!-- верхняя панель -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#home">
+        <span class="brand__logo">JS</span>
+        <span class="brand__name">ТвоёИмя</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#home" class="nav__link is-active">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#education" class="nav__link">Education</a>
+        <a href="#work" class="nav__link">Work</a>
+        <a href="#experience" class="nav__link">Experience</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile" id="mobileMenu">
+      <a href="#home" class="mobile__link">Home</a>
+      <a href="#about" class="mobile__link">About</a>
+      <a href="#skills" class="mobile__link">Skills</a>
+      <a href="#education" class="mobile__link">Education</a>
+      <a href="#work" class="mobile__link">Work</a>
+      <a href="#experience" class="mobile__link">Experience</a>
+      <a href="#contact" class="mobile__link">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO как на скрине -->
+  <main class="container">
+    <section id="home" class="hero">
+      <div class="hero__left">
+        <h1 class="hero__title">
+          Hi There,<br />
+          I'm <span class="hero__name">Имя</span> <span class="hero__surname">Фамилия</span>
+        </h1>
+
+        <p class="hero__subtitle">
+          I Am Into <span class="typing" id="typing"></span>
+        </p>
+
+        <a class="btn" href="#about">About Me <span class="btn__arrow">↓</span></a>
+
+        <div class="social">
+          <a class="social__btn" href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+          <a class="social__btn" href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a>
+          <a class="social__btn" href="https://t.me/" target="_blank" rel="noreferrer" aria-label="Telegram">TG</a>
+          <a class="social__btn" href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="X">X</a>
+          <a class="social__btn" href="mailto:you@mail.com" aria-label="Email">@</a>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <div class="avatar">
+          <img src="assets/avatar.png" alt="Avatar" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Секции -->
+    <section id="about" class="section">
+      <h2 class="section__title">About</h2>
+      <div class="card">
+        <p>
+          Я начинающий разработчик. Учусь Python, работаю с C/C++, делаю pet-проекты (боты, автоматизация, игры).
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2 class="section__title">Skills</h2>
+      <div class="grid">
+        <div class="card">Python</div>
+        <div class="card">C / C++</div>
+        <div class="card">Git / GitHub</div>
+        <div class="card">Linux basics</div>
+        <div class="card">Phaser (learning)</div>
+        <div class="card">Telegram Bots (planned)</div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h2 class="section__title">Education</h2>
+      <div class="card">
+        <b>Университет / Курсы</b><br/>
+        2023–2025 — описание (что изучал, проекты).
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <h2 class="section__title">Work</h2>
+      <div class="card">
+        Пока без коммерческого опыта — делаю pet-проекты и активно прокачиваюсь.
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2 class="section__title">Experience</h2>
+      <div class="card">
+        <ul class="list">
+          <li>Pet-проект: мини-игра на Phaser (меню, сцены, генерация платформ)</li>
+          <li>Учебные скрипты на Python (автоматизация, парсинг, утилиты)</li>
+          <li>План: Telegram-боты + небольшие приложения</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 class="section__title">Contact</h2>
+      <div class="card">
+        <p><b>Email:</b> you@mail.com</p>
+        <p><b>Telegram:</b> @username</p>
+        <p><b>GitHub:</b> github.com/username</p>
+      </div>
+    </section>
+
+    <footer class="footer">© <span id="year"></span> Имя Фамилия</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
