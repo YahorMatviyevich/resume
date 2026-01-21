@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
       hero_about_btn: "Обо мне",
 
       about_title: "Обо мне",
-      about_text: "Я начинающий разработчик. Изучаю Python, C/C++ и автоматизацию. Делаю pet-проекты и прокачиваю практику.",
+      about_text: "Я начинающий разработчик. Изучаю Python, C/C++ и автоматизацию. Делаю pet-проекты и прокачиваю знания в алгоритмах и структурах данных.",
 
       skills_title: "Навыки",
       skills_english: "Английский: B1 (в процессе)",
